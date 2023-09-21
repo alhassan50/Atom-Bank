@@ -2,6 +2,7 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+
 /* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -66,6 +67,7 @@ button {
   text-transform: capitalize;
   border: none;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 header .main-header-section {
@@ -104,6 +106,50 @@ header nav li {
   color: #1D2027;
 }
 
+.social-proof-section .section-body-content {
+  background-image: linear-gradient(to bottom, #1D2027, #494B4E, #1D2027);
+  background-image: url('./Assets/socialproofbg.png');
+  background-color: var(--pr-color2);
+  border-radius: 32px;
+  padding-top: 85px;
+  padding-bottom: 85px;
+}
+
+.social-proof-section .cards-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cards-container .cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.cards .card-image {
+  background-color: var(--pr-color1);
+  padding: 40px;
+  border-radius: 32px;
+  box-shadow: 10px 30px 20px #333438;
+}
+
+.cards .card-info {
+  flex-basis: 45%;
+}
+
+.cards-container .cards h3 {
+  font-size: 21px;
+  color: #EFF1F3;
+}
+
+.cards-container .cards p {
+  font-size: 12px;
+  color: #cccccc;
+  margin-top: 1rem;
+  width: 70%;
+}
 
 .cta-section {
   background-color: var(--sd-color);
