@@ -1,9 +1,17 @@
 import './App.css';
 import Header from './Header-Section/Header';
+import Body from './Body-Sections/Body';
+import Footer from './Footer-Section/Footer';
 
 function App() {
   return (
-    <Header />
+    <div className='react-app'>
+      <Header />
+
+      <Body />
+
+      <Footer />
+    </div>
   );
 }
 
