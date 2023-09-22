@@ -33,6 +33,7 @@ code {
 
 html, body {
   min-height: 100%;
+  overflow-x: hidden;
 }
 
 a,
@@ -101,10 +102,102 @@ header nav li {
   color: #fff;
 }
 
+.primary-btn:hover {
+  background: linear-gradient(to bottom, #494B4E, #1D2027 , #1D2027);
+}
+
 .secondary-btn {
   background-color: #EFF1F3;
   color: #1D2027;
 }
+
+.secondary-btn:hover {
+  background-color: #e7e7e7;
+}
+
+.ghost-btn {
+  background-color: transparent;
+  border: none;
+  color: #989898;
+  text-decoration: underline;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.ghost-btn:hover {
+  background-color: #fafafa;
+}
+
+button img {
+  width: 20px;
+}
+
+
+.hero-section .hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-section .hero-header {
+  text-align: left;
+  flex-basis: ;
+}
+
+.hero-section .hero-header h1 {
+  color: var(--pr-color1);
+  font-weight: 500;
+  font-size: 56px;
+}
+
+.hero-section .hero-header p {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 14px;
+  width: 600px;
+}
+
+div.atombank {
+  display: inline-block;
+  position: relative;
+}
+
+div.atombank::before {
+  content: url('./Assets/rule.png');
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  z-index: -1;
+}
+
+span.atom {
+  font-weight: 700;
+}
+
+.hero-btns {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.hero-image {
+  position: relative;
+}
+
+.hero-image .main-image {
+  width: 700px;
+}
+
+.hero-image .secondary-image {
+  position: absolute;
+  top: -10px;
+  left: 10rem;
+}
+
+
+
 
 .social-proof-section .section-body-content {
   background-image: linear-gradient(to bottom, #1D2027, #494B4E, #1D2027);

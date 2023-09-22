@@ -16,10 +16,6 @@ const NavBar = () => {
                     <Button title="resgister" className="primary-btn"/>
                 </div>
             </div>
-
-            <section>
-                
-            </section>
         </header>
     )
 }
