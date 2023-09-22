@@ -45,6 +45,13 @@ img {
 section, 
 footer {
   padding: 100px 50px;
+  background-color: #fcfcfc;
+}
+
+section,
+.main-header-section {
+  
+  background-color: #fcfcfc;
 }
 
 .section-header {
@@ -243,6 +250,65 @@ span.atom {
   margin-top: 1rem;
   width: 70%;
 }
+
+.service-card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.service-card:not(:last-child) {
+  margin-bottom: 8rem;
+}
+
+.service-card .card-image {
+  flex-basis: 30%;
+}
+
+.service-card .card-description {
+  flex-basis: 45%;
+}
+
+.service-card .card-description h3 {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.service-card .card-description p {
+  color: #989898;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.service-card .card-description .ghost-btn {
+  padding-left: 0;
+}
+
+.service-card .card-description .ghost-btn:hover {
+  background-color: transparent;
+  color: var(--pr-color1);
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.download-btns {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.download-btns .download-gplay{
+  width: 203px;
+}
+
+.download-btns .download-appstore{
+  width: 182px;
+}
+
+
+
 
 .cta-section {
   background-color: var(--sd-color);
