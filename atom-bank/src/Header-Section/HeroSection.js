@@ -9,11 +9,11 @@ const HeroSection = () => {
             <div className="hero-content">
                 <div className="hero-header">
                     <h1>
-                        Easy Way to <br /> Save your Money with <div className='atombank'><span className='atom'>Atom</span>Bank.</div>
+                        Easy Way to Save your Money with <div className='atombank'><span className='atom'>Atom</span>Bank.</div>
                     </h1>
 
                     <p>
-                        The best place to transact and save money.We make all payments easier <br /> and simplier. Receive and send payment funds without cash.
+                        The best place to transact and save money.We make all payments easier and simplier. Receive and send payment funds without cash.
                     </p>
 
                     <div className='hero-btns'>

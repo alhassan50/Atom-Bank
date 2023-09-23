@@ -70,7 +70,11 @@ const ServicesCard = () => {
                                         {service.description}
                                     </p>
 
-                                    {service.ctaBtn && <Button title={service.ctaBtn.title} className={service.ctaBtn.className} image={arrow}/>}
+                                    {service.ctaBtn && 
+                                        <div className='ghost-btn-container'>
+                                            <Button title={service.ctaBtn.title} className={service.ctaBtn.className} image={arrow}/>
+                                        </div>
+                                    }
                                     
                                     {service.download && 
                                         <div className='download-btns'>

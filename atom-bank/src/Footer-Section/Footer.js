@@ -4,7 +4,7 @@ import SocialInfo from "./SocialInfo"
 
 const ContactInfo = (props) => {
     return (
-        <div>
+        <div className="footer-link-item">
             <h4>
                 {props.headerText}
             </h4>
@@ -18,7 +18,7 @@ const ContactInfo = (props) => {
 
 const SocialLinks = () => {
     return (
-        <div className="social-links">
+        <div className="social-links footer-link-item">
             {SocialInfo.map(social => {
                     return (
                         <div key={social.src} className="social-info">
